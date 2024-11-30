@@ -38,10 +38,8 @@ void pop(queue *q, int *data)
     if (q->front == q->rear)
     {
         printf("Queue is empty\n");
-        data = NULL;
         return;
     }
-    // if ()
     *data = q->arr[q->front];
     q->front++;
     return;
